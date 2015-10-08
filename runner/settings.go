@@ -20,6 +20,7 @@ var settings = map[string]string{
 	"config_path":       "./runner.conf",
 	"root":              ".",
 	"tmp_path":          "./tmp",
+	"ignored_dirs":      "",
 	"build_name":        "runner-build",
 	"build_log":         "runner-build-errors.log",
 	"valid_ext":         ".go, .tpl, .tmpl, .html",
